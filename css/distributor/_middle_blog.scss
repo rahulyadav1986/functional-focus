@@ -1,0 +1,72 @@
+@import "color_variable";
+.blog_details_back{
+    width: 100%; display: block;  background-color:$tertiary_color ; background-image: url(../images/pink_overlay.png); background-blend-mode:color-burn; padding: 4rem 0 0; position: relative;
+    .custom_heading{
+        margin-bottom: 5rem;
+        h2{
+            color: $white; font-size: 6.1rem;
+            &:after{ background-color: $white;}
+        }
+    }
+    .portion{
+        width: 100%; display: block; background-color: $white; margin-bottom: 4rem;
+        img{
+            width: 100%; height: 43.2rem; object-fit: cover; object-position: top center;
+        }
+        .content{
+            padding: 5rem; width: 100%; min-height: 44.8rem;
+            .custom_heading{
+                margin-bottom: 4rem;
+                h3{
+                    font-size: 4rem;
+                    &:after{ 
+                        width: 9.6rem; height: 4px;
+                    }
+                }
+            }
+            p{
+                font-size: 1.7rem; line-height: 3.4rem; font-weight: 300;
+            }
+            .custom_button{
+                a{
+                    padding: 1rem 3rem;
+                }
+            }
+        }
+        ul{
+            border-left: #e8e8e8 1px solid;
+            border-right: #e8e8e8 1px solid;
+            li{
+                text-align: center;width: 33.33333%;
+                border-right: #e8e8e8 1px solid;
+                .date_back{
+                    img{width: auto; height: 5.9rem; display: inline-block;}
+                    .date{
+                        font-size: 1.8rem;
+                        display: inline-block;
+                        color: $secondary_color;
+                        background-color: $primary_color;
+                        border-radius: 10rem;
+                        width: 13.8rem; height: 2.8rem; line-height: 2.8rem; font-weight: 900;
+                        margin-top: 1.3rem;
+                        margin-bottom: 1rem;
+                    }
+                    p{
+                        color: $secondary_color; font-size: 1.5rem; 
+                    }
+                }
+                &:last-child{
+                    border-right: none;
+                }
+                
+            }
+        }
+        
+    }
+    &:before{
+        width: 100%; height: 7.9rem; background-image: url(../images/pink_zigzag.png); background-position: center top; position: absolute; top:-7.9rem; left: 0; content: ""; z-index: 9;
+    }
+    &:after{
+        width: 100%; height: 7.9rem; background-image: url(../images/pink_zigzag2.png); background-position: center bottom; position: absolute; bottom:-7.9rem; left: 0; content: ""; z-index: 9;
+    }
+}

@@ -1,0 +1,29 @@
+.tm-service-page{
+    padding: 7rem 0;
+}
+.tm-service-page-main {
+    margin-top: 5rem;
+}
+.tm-sec-inner-title h4{
+    font-size: 3.6rem;
+    line-height: 4.2rem;
+    font-weight: 600;
+    color: #313131;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.tm-service-page-text .tm-sec-inner-title {
+    margin-bottom: 5rem;
+}
+.tm-service-page-text{
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+.tm-service-page-text .custom_button{
+    margin-top: 2rem;
+}
+.tm-service-page-text {
+    font-size: 1.6rem;
+    line-height: 3rem;
+    padding: 2rem 3rem;
+}

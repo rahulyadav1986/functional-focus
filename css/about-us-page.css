@@ -1,0 +1,49 @@
+.tm-about-us-page{
+    padding: 7rem 0;
+}
+.tm-about-us-page-content{
+    margin-top: 4rem;
+    font-size: 1.7rem;
+    line-height: 3.2rem;
+}
+.tm-about-us-page-content p{
+    margin-bottom: 1rem;
+}
+.tm-about-us-page-content p img {
+    float: right;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+.tm-about-us-page-content-short-panel{
+    font-size: 1.7rem;
+    line-height: 3.2rem;
+    margin-top: 2rem;
+}
+.tm-about-us-page-content-short-panel h4{
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 600;
+    color: #20438f;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+.tm-about-us-award-panel{
+    padding: 4rem 2rem;
+    background: #fff;
+    box-shadow: 0 4px 21px 0 rgba(205,223,227,0.5);
+    border-radius: 6px;
+    margin: 2rem 0px 0 0px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    font-size: 2rem;
+}
+.tm-about-us-award-panel h5{
+    font-size: 2.4rem;
+    line-height: 4rem;
+    font-weight: 600;
+    color: #313131;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 1rem 0;
+}

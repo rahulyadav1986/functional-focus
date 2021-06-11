@@ -1,0 +1,48 @@
+.tm-inner-banner {
+    padding: 10rem 0;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 31%;
+}
+.tm-inner-banner-overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+.tm-inner-banner-text h1{
+    text-shadow: rgba(0, 0, 0, 0.2) 0 0 7px;
+    margin: 0;
+    line-height: 1;
+    font-size: 7rem;
+    font-weight: 900;
+    color: #fff;
+    text-transform: capitalize;
+}
+.tm-inner-banner-text ul{
+    margin-top: 2rem;
+}
+.tm-inner-banner-text ul li{
+    display: inline-block;
+    color: #25aae1;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.tm-inner-banner-text ul li + li::before {
+    content: "\f101";
+    font-family: FontAwesome;
+    font-weight: 900;
+    padding: 0 1rem;
+    color: #fff;
+}
+.tm-inner-banner-text ul li a{
+    color: #fff;
+    transition: all ease-in-out .3s;
+}
+.tm-inner-banner-text ul li a:hover{
+    color: #25aae1;
+}
+

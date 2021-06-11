@@ -1,0 +1,49 @@
+.about_details_back{
+    width: 100%; display: block; height: 70.7rem; position: relative; background-image: url(../images/person-bg.jpg); background-position: 50% -18px; background-repeat: no-repeat; margin-top: 0; background-size: cover;
+    .container{
+        position: relative; width: 100%; height: 100%;
+    }
+    h1, h3, p{
+        color: #fff; 
+    }
+    h3, p, img{
+        margin-top: 2.5rem;
+    }
+    h1{
+         font-size: 6.8rem; line-height: 6.4rem; font-weight: 600;
+    }
+    h3{
+        font-weight: 300;font-size: 2rem; width: 54rem; line-height: 1.2;
+    }
+    p{
+        font-size: 1.5rem;  width: 53rem; 
+    }
+    .person{
+        margin-top: 0; position: absolute; bottom: 0; right: 0; height: 78.7rem;
+    }
+    
+}
+
+@media only screen and (max-width:1023px){
+    .about_details_back{
+        h3{
+            width: 40rem;
+        }
+        p{
+            width: 34rem;
+        }
+    }
+}
+
+@media only screen and (max-width:767px){
+    .about_details_back{
+        text-align: center; margin-top: 0;
+        h1, h3, p, img{
+            display: inline-block;
+        }
+        h1, h3, p{
+            width: 100%;
+        }
+        .person{display: none;}
+    }
+}

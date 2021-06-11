@@ -1,0 +1,97 @@
+.tm-faq-sec {
+    padding: 7rem 0;
+    background-color: #f2f2f2;
+}
+.tm-sec-title{
+    margin-bottom: 5rem;
+}
+.tm-faq-sec #faq .card {
+    margin-bottom: 2rem;
+    border: 0;
+    background-color: transparent;
+}
+.tm-faq-sec #faq .card .card-header {
+  border: 0;
+  -webkit-box-shadow: 0 0 2rem 0 rgba(213, 213, 213, 0.5);
+          box-shadow: 0 0 2rem 0 rgba(213, 213, 213, 0.5);
+  border-radius: .2rem;
+  padding: 0;
+}
+.tm-faq-sec #faq .card .card-header .btn-header-link {
+    color: #fff;
+    display: block;
+    text-align: left;
+    background: #31b3b3;
+    color: #fff;
+    padding: 1.5rem 5rem 1.5rem 2rem;
+    font-size: 2rem;
+    font-family: 'Amiri', serif;
+    font-weight: 500;
+    position: relative;
+    white-space: unset;
+}
+.tm-faq-sec #faq .card .card-header .btn-header-link::after {
+    content: "\f106";
+    font-family: FontAwesome;
+    font-weight: 900;
+    color: #fff;
+    width: 4.2rem;
+    height: 4.2rem;
+    line-height: 4.2rem;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.tm-faq-sec #faq .card .card-header .btn-header-link.collapsed {
+    background: #de2f5f;
+    color: #fff;
+}
+.tm-faq-sec #faq .card .card-header .btn-header-link.collapsed:after {
+  content: "\f107";
+  color: #fff;
+}
+.tm-faq-sec #faq .card .collapsing {
+  background: #f9f9f9;  
+}
+.tm-faq-sec #faq .card .collapse {
+  border: 0;
+}
+.tm-faq-sec #faq .card .collapse.show {
+    background: #fff;    
+    color: #8f8f8f;    
+    
+}
+.tm-faq-sec .btn.focus, .tm-faq-sec  .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.tm-faq-sec .card-body{
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+}
+.tm-faq-sec .card-body p{
+    margin-bottom: 0;
+}
+
+.tm-sec-title h2 {
+    font-size: 6.8rem;
+    line-height: 6.4rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #313131;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.tm-sec-title span {
+    color: #808080;
+    font-size: 1.75rem;
+}
+.owl-item .tm-faq-sec-owl-carousel-img-thumbs img{
+    opacity: .5;
+}
+.owl-item.active.current .tm-faq-sec-owl-carousel-img-thumbs img{
+    opacity: 1;
+}

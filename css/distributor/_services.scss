@@ -1,0 +1,62 @@
+.services_back{
+    width: 100%; height: auto; padding: 10rem 0 4rem; background: url(../images/services.jpg) no-repeat right center $white;
+    h2{
+        font-size: 6.8rem; line-height: 6.4rem; font-weight: 600; margin-bottom: 1.5rem; color: $black2; letter-spacing: 1px;
+   }
+   h4{
+       font-weight: 300;font-size: 1.8rem;  line-height: 1.2; color: $common_color; margin-bottom: 2rem; width: 100%;
+   }
+   p{
+       font-size: 1.5rem;  width: 85%; color: $common_color; line-height: 2.4rem; margin-bottom: 5rem;
+   }
+   .item{
+       padding-left: 6rem;
+       .col-md-6{
+           padding: 0 3rem;
+       }
+   }
+   .portion{
+       width: 100%; height: auto; background: $white; box-shadow: 0px 10px 30px rgba(0,0,0,.2); padding: 5rem 4rem; margin-bottom: 6rem; border-radius: 5px;
+       img{
+           margin-bottom: 2rem;
+       }
+       h3{
+           color: $primary_color; font-size: 2.4rem; margin-bottom: 1.5rem;
+       }
+       p{
+           font-size: 1.4rem; margin-bottom: 4rem;
+       }
+       .custom_button{
+           a{
+               width: auto; display: inline-block; height: auto; padding: 1rem 2rem; line-height: initial; font-size: 1rem;
+           }
+       }
+   }
+}
+
+@media only screen and (max-width:1450px){
+    .services_back{
+        p{
+            width: 100%;
+        }
+        .portion{
+            margin-bottom: 4rem;
+        }
+        .item{
+            .col-md-6{
+                padding: 0 2rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:1023px){
+    .services_back{
+        .item{
+            padding-left: 0; margin-top: 4rem;
+            .col-md-6{
+                padding-left: 4rem;
+            }
+        }
+    }
+}
